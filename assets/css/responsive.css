@@ -14,6 +14,12 @@
     .header-wrapper .learn-more-btn {
         padding: 12px 10px !important;
     }
+
+
+    /* 3: Banner */
+    .banner-wrapper .banner-title {
+        font-size: 50px;
+    }
 }
 
 @media (max-width: 1070px) {
@@ -47,5 +53,26 @@
 
     .header-wrapper .navbar-collapse {
         background-color: var(--bg-white);
+    }
+
+
+    /* 3: Banner */
+    .banner-wrapper .banner-title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* 3: Banner */
+    .banner-wrapper {
+        padding: 100px 0 100px;
+    }
+
+    .banner-wrapper .row {
+        flex-direction: column-reverse;
+    }
+
+    .btn-header {
+        margin: auto;
     }
 }

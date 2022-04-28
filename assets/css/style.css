@@ -64,6 +64,7 @@ body {
     background-color: var(--bg-white);
 }
 
+
 /* Custom CSS */
 .learn-more-btn {
     background-color: var(--bg-black);
@@ -89,6 +90,7 @@ body {
     color: var(--text-white) !important;
     background-color: var(--bg-black);
 }
+
 
 /* 2: Navbar */
 .header-wrapper .navbar {
@@ -157,4 +159,65 @@ body {
 
 .header-scrolled .nav-item .nav-link {
     font-size: 17px;
+}
+
+
+/* 3: Banner */
+.banner-wrapper {
+    width: 100%;
+    padding: 100px 0 125px;
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+}
+
+.banner-wrapper .banner-subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: var(--text-light-3);
+}
+
+.banner-wrapper .banner-title {
+    font-family: var(--secondary-font);
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1.15;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+
+.banner-wrapper .banner-title span {
+    color: var(--text-dark-green) !important;
+}
+
+.banner-wrapper .banner-title-text {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+    max-width: 450px;
+    margin-bottom: 40px;
+    color: var(--text-light-2);
+}
+
+.banner-wrapper .learn-more-btn-section {
+    margin-bottom: 20px;
+}
+
+.banner-wrapper .header-img-section img {
+    width: 100%;
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
