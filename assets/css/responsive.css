@@ -27,6 +27,11 @@
     .header-wrapper .nav-link {
         font-size: 16px;
     }
+
+    /* 5: About */
+    .about-wrapper .about-title {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -59,6 +64,15 @@
     /* 3: Banner */
     .banner-wrapper .banner-title {
         font-size: 40px;
+    }
+
+    /* 5: About */
+    .about-wrapper .about-number {
+        margin: 20px auto;
+    }
+
+    .about-wrapper .about-title {
+        font-size: 24px;
     }
 }
 

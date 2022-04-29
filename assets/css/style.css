@@ -251,3 +251,64 @@ body {
     height: 50px;
     object-fit: cover;
 }
+
+
+/* 5: About */
+.about-wrapper {
+    padding: 100px 0 0;
+}
+
+.about-wrapper .about-number {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 24px;
+    padding: 4px 17px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    max-width: 44px;
+    color: var(--text-white);
+    background-color: var(--bg-dark-green);
+}
+
+.about-wrapper .about-title {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    max-width: 1000px;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+
+.about-wrapper .about-text {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.25;
+    max-width: 700px;
+    color: var(--text-light-2);
+}
+
+.about-wrapper .innovate {
+    background: var(--bg-light-2);
+    padding: 80px 0;
+}
+
+.about-wrapper .projects {
+    padding: 30px 0;
+}
+
+.about-wrapper .projects h2 {
+    color: var(--text-orange);
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.about-wrapper .projects p {
+    color: var(--text-light-2);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.5;
+}
