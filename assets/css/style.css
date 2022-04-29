@@ -312,3 +312,121 @@ body {
     font-size: 17px;
     line-height: 1.5;
 }
+
+
+/* 6: Features */
+.features-wrapper {
+    padding: 100px 0 80px;
+    background-color: var(--bg-light-2);
+}
+
+.features-wrapper .features-subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-light-2);
+}
+
+.features-wrapper .features-title {
+    font-family: var(--secondary-font);
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+
+.features-wrapper h3 {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: var(--bold-font-weight);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: var(--text-black);
+}
+
+.features-wrapper .features-text {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--text-light-2);
+}
+
+.features-wrapper .ft-1 {
+    background-color: var(--bg-features-1);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.features-wrapper .ft-1::before {
+    content: url(../images/consultancy.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+
+.features-wrapper .ft-2 {
+    background-color: var(--bg-features-2);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.features-wrapper .ft-2::before {
+    content: url(../images/solutions.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+
+.features-wrapper .ft-3 {
+    background-color: var(--bg-features-3);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.features-wrapper .ft-3::before {
+    content: url(../images/simple.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+
+.features-wrapper .ft-4 {
+    background-color: var(--bg-features-4);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.features-wrapper .ft-4::before {
+    content: url(../images/deadline.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+
+.features-wrapper .ft-5 {
+    background-color: var(--bg-features-5);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.features-wrapper .ft-5::before {
+    content: url(../images/data.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+
+.features-wrapper .ft-6 {
+    background-color: var(--bg-features-6);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.features-wrapper .ft-6::before {
+    content: url(../images/flexible.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
