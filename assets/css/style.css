@@ -602,3 +602,95 @@ body {
     vertical-align: bottom;
     color: var(--text-yellow);
 }
+
+
+/* 8: Reviews */
+.testimonial-wrapper {
+    padding: 100px 0;
+}
+
+.testimonial-wrapper .testimonials-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-light-3);
+}
+
+.testimonial-wrapper .testimonials-title {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 80px;
+    color: var(--text-black);
+}
+
+.testimonial-wrapper .testimonial-card {
+    border-radius: 15px;
+    padding: 50px;
+    background-color: var(--bg-white);
+    box-shadow: 0 5px 40px rgb(0 0 0 / 15%);
+}
+
+.testimonial-wrapper .testimonial-card h3 {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-black);
+}
+
+.testimonial-wrapper .testimonials-role {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1;
+    margin-bottom: 25px;
+    color: var(--text-dark-green);
+}
+
+.testimonial-wrapper .testimonials-text {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/* 9: Brands */
+.brand-wrapper {
+    padding: 100px 0;
+    background-color: var(--bg-light-2);
+}
+
+.brand-wrapper .brand-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-light-3);
+}
+
+.brand-wrapper .brand-title {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+
+.brand-wrapper .showcase-card img {
+    width: 100%;
+    border-radius: 15px;
+    padding: 45px 25px;
+    background-color: var(--bg-white);
+    box-shadow: 0 5px 40px rgb(0 0 0 / 8%);
+    transition: 0.7s ease-in-out;
+}
+
+.brand-wrapper .showcase-card img:hover {
+    transform: scale(1.2);
+    position: relative;
+    z-index: 2;
+}
