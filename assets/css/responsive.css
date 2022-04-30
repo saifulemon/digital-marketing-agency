@@ -96,4 +96,10 @@
     .free-trial .free-title {
         font-size: 24px;
     }
+
+    
+    /* 10: FAQs */
+    .faq-wrapper .accordion-button {
+        font-size: 18px;
+    }
 }

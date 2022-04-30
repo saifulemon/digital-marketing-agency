@@ -694,3 +694,76 @@ body {
     position: relative;
     z-index: 2;
 }
+
+
+/* 10: FAQs */
+.faq-wrapper {
+    padding: 100px 0;
+}
+
+.faq-wrapper .faq-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-light-3);
+}
+
+.faq-wrapper .faq-title {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+
+.faq-wrapper .accordion-button:hover,
+.faq-wrapper .accordion-button:focus {
+    box-shadow: none;
+    color: var(--text-dark-green);
+}
+
+.faq-wrapper .accordion-item {
+    border: 0;
+}
+
+.faq-wrapper .accordion-button {
+    font-size: 21px;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    color: var(--text-black);
+    background-color: var(--bg-white);
+    border-radius: 0;
+    padding: 0 0 15px 0;
+    border-bottom: 0px solid var(--text-light-3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.faq-wrapper .accordion-button::after {
+    content: '\002B';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    background-image: none;
+}
+
+.faq-wrapper .accordion-button:not(.collapsed)::after {
+    content: '\2212';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    display: inline-block;
+    background-image: none;
+    transform: unset;
+}
+
+.faq-wrapper .accordion-body {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    color: var(--text-black);
+}
