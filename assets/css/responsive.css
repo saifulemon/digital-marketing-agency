@@ -66,6 +66,7 @@
         font-size: 40px;
     }
 
+
     /* 5: About */
     .about-wrapper .about-number {
         margin: 20px auto;
@@ -88,5 +89,11 @@
 
     .btn-header {
         margin: auto;
+    }
+
+
+    /* 7: Pricing */
+    .free-trial .free-title {
+        font-size: 24px;
     }
 }
