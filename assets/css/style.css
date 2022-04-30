@@ -767,3 +767,80 @@ body {
     padding-bottom: 25px;
     color: var(--text-black);
 }
+
+
+/* 11: Footer */
+.footer-wrapper {
+    padding: 100px 0 25px;
+    background: url(../images/bg_footer.png) no-repeat;
+    background-size: cover;
+    background-color: var(--bg-black);
+    color: var(--text-white);
+}
+
+.footer-wrapper .footer-logo img {
+    max-width: 30%;
+}
+
+.footer-wrapper .footer-text,
+.footer-wrapper .footer-text a {
+    margin-top: 30px;
+    color: var(--text-white);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.footer-wrapper .footer-title {
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    color: var(--text-white);
+}
+
+.footer-wrapper .footer-social-icon {
+    padding-right: 30px;
+    color: var(--text-white);
+    font-size: 25px;
+}
+
+.footer-wrapper .footer-credits {
+    color: var(--text-white);
+    border-top: 1px solid var(--text-white);
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.footer-wrapper .footer-credits a {
+    color: var(--text-yellow);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+/* for scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--bg-light-2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--bg-black);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--bg-black);
+}

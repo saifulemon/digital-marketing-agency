@@ -102,4 +102,10 @@
     .faq-wrapper .accordion-button {
         font-size: 18px;
     }
+
+
+    /* 11: Footer */
+    .footer-wrapper .footer-logo img {
+        max-width: 50%;
+    }
 }
